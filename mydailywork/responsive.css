@@ -1,0 +1,188 @@
+@media screen  and (max-width:576px)  {
+    #navbar{
+        /* background-color: red; */
+        height: 10vh;
+        width: 360px;
+      
+    }
+    #navbar img{
+        width: 22vh;
+        position: relative;
+        left:5%;
+    }
+    #navbar ul{
+        display: none;
+    }
+    #navbar .hamburger{
+        width: 3vh;
+      position:absolute;
+     left: 85%;
+        display: block;
+    }
+/* LANDING PAGE SECTION */
+#heading{
+    /* background-color: red; */
+    width: 360px;
+    height: 15vh;
+    text-wrap: wrap;
+    left:0;
+    top: 5%;
+    
+}
+#heading h2{
+  font-size: 1.5rem;
+  padding: 0 7px;
+}
+#main{
+    flex-direction: row;
+}
+#aboutus{
+    /* background-color: red; */
+   width: 350px;
+   align-items: center;
+    left: -1%;
+}
+
+#aboutus span, h3, section, p{
+    padding:0 1px;
+}
+.arrow{
+    display: none;
+}
+#aboutus p{
+    position: relative;
+    text-align: center;
+    top: 10%;
+}
+#contactandinternship {
+    position: relative;
+    top: 10%;
+}
+#contactandinternship button:nth-child(1){
+    position: relative;
+  left: 22%;
+  width: 15vh;
+  height: 5vh;
+  font-size: 12px;
+
+}
+
+#contactandinternship button:nth-child(2){
+    position: relative;
+right: 24%;
+  width: 20vh;
+  height: 5vh;
+  font-size: 12px;
+}
+#frame{
+  position: absolute;
+  display: none;
+}
+/* SECOND SECTION */
+#secondMain{
+    /* background-color: red; */
+    position: relative;  
+}
+#dottedline svg{
+    width: 360px;
+}
+#secondMainHeading{
+font-size: 1.7rem;
+}
+
+/* EXCITING GOODIES SECTION */
+img#right2{
+width: 5vh;
+left: 85%;
+position: absolute;
+}
+img#left2{
+    position: absolute;
+    width: 5vh;
+    left: 5%;
+}
+
+#fourdots{
+    transform: translatex(175%);
+}
+
+/* ABOUT WHO WE ARE SECTION */
+#whoweare section{
+    /* background-color: red; */
+    font-size: 1rem;
+    text-wrap: wrap;
+   
+ min-width: 100%;
+ text-align: center;
+ height: 50vh;
+ position: absolute;
+}
+#thiswasneeded{
+width: 100%;
+}
+#whoweare{
+    width: 360px;
+}
+#aboutwhoweare{
+    display: flex;
+    justify-content: center;
+   width: 100%;
+}
+
+
+/* CONTACT FORM */
+#contactform{
+    position:relative;
+    display: none;
+}
+
+#insidesecondsec h3{
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+#insidefirstsec h3{
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+
+#internshipsection{
+  
+    position: relative;
+margin-top: 235%;   
+}
+#internshipsection h2{
+  position: relative;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+   
+    overflow-x: hidden;
+}
+
+/* FOOTER SECTION */
+footer{
+    height: 192vh;
+}
+.firstfootersec{
+    flex-direction: column;
+    height: 80vh;
+}
+footer .firstfootersec span:nth-child(1) p{
+    flex-direction: column;
+    font-size:1rem !important;
+   
+}
+.secfootersection{
+    flex-direction: column; 
+    align-items: center;
+}
+.thirdfootersec{
+    height: 10vh;
+    position: relative;
+   
+}
+}
